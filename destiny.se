@@ -1,3 +1,4 @@
+# Map movement controls to the left stick
 w = leftY-
 a = leftX-
 s = leftY+
@@ -23,6 +24,7 @@ t = touchpad
 
 escape = O
 
+# Map mouse to the right stick
 mouseLook.type = linear
 mouseLook.stick = right
 mouseLook.multY = -1
