@@ -1,4 +1,3 @@
-# Map movement controls to the left stick
 w = leftY-
 a = leftX-
 s = leftY+
@@ -24,9 +23,8 @@ t = touchpad
 
 escape = O
 
-# Map mouse to the right stick
-mouseLook.type = linear # 1:1 translation mode, no curve
+mouseLook.type = linear
 mouseLook.stick = right
-mouseLook.multY = -1 # Flips the Y axis for mouseLook
-mouseLook.deadZone = .05 # Sets the dead zone for the joystick
-mouseLook.decay = 5 # What the joystick movement is divided by at each tick (probably does very little)
+mouseLook.multY = -1
+mouseLook.deadZone = .05
+mouseLook.decay = 5
