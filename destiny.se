@@ -5,12 +5,14 @@ s = leftY+
 d = leftX+
 
 space = X
-e = square
+r = square
+tab = triangle
 
 leftMouse = R2
-rightMouse = L1
+rightMouse = L2
 
-x = L2
+x = L1
+shift = R1
 
 up = dpadUp
 left = dpadLeft
